@@ -1,0 +1,52 @@
+body
+{
+   background-attachment: scroll;
+   background: rgb(198,206,246);
+background: radial-gradient(circle, rgba(198,206,246,1) 0%, rgba(233,208,213,1) 100%);
+
+}
+h2{
+    text-size-adjust: 26;
+}
+.nav-link{
+    background:black;
+    height:40px;
+    color:white;
+}
+.nav-link:hover
+{
+    background: orange;
+}
+    
+.iframe
+{
+    width:100%;
+}
+.card
+{
+    background-color:seashell
+}
+.btn:hover{
+    background: black ;
+box-shadow:     0 0 5px black,
+                0 0 25px black,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+}
+
+.boton
+{
+    color:whitesmoke;
+    background: #8031b4;
+    padding:5px;
+    border-radius: 2px;
+    
+}
+.boton:hover{
+    background:black;
+    color:whitesmoke;
+box-shadow:     0 0 5px black,
+                0 0 25px black,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+    

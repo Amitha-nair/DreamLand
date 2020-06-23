@@ -1,0 +1,29 @@
+
+*
+{
+    margin:0px;
+    padding:0px;
+}
+.wrapper
+ {   
+     width: 1350px;
+    height: 40px;
+    background-color: rosybrown;
+    text-decoration: crimson;
+    font-style: initial;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.para
+{   background-color: yellow;
+    width: 1000px;
+    height:500px;
+    margin:30px;
+    padding-top:50px;
+    text-align: left;
+}
+.ola
+{  
+    margin-top:200px;
+    margin-left:300px;  
+}
