@@ -1,9 +1,8 @@
+
 body
 {
    background-attachment: scroll;
-   background: rgb(198,206,246);
-background: radial-gradient(circle, rgba(198,206,246,1) 0%, rgba(233,208,213,1) 100%);
-
+   background: white;
 }
 h2{
     text-size-adjust: 26;
@@ -21,6 +20,9 @@ h2{
 .card
 {
     background-color:seashell
+}
+.btn:hover{
+    color:white;
 }
 .btn:hover{
     background: black ;
@@ -56,10 +58,18 @@ box-shadow:     0 0 5px black,
   min-height: 200px;
   background-size: cover;
   }
-.fut
+  .fut3
+  {
+      height:100%;
+      background:black;
+      color:white;
+  }
+.fut1
 {
-    background: black;
-    color:gray;
+    background: rgb(39, 39, 39);
+    color:white;
+    font-weight: lighter;
+    font-size: 14px;
     height:100%;
     width: 100%;
     margin-bottom:0%;
@@ -80,6 +90,18 @@ box-shadow:     0 0 5px black,
     border-radius: 300px;
     margin-top: 30px;
 }
+.nav-item
+{
+    
+    padding-left:20px;
+    
+}
+.nav-item1
+{
+    padding-right:20px;
+}
 
 
 background: no-repeat center center scroll;
+background: rgb(198,206,246);
+background: radial-gradient(circle, rgba(198,206,246,1) 0%, rgba(233,208,213,1) 100%);
