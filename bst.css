@@ -8,14 +8,10 @@ background: radial-gradient(circle, rgba(198,206,246,1) 0%, rgba(233,208,213,1) 
 h2{
     text-size-adjust: 26;
 }
-.nav-link{
-    background:black;
-    height:40px;
-    color:white;
-}
-.nav-link:hover
+
+.navbar
 {
-    background: orange;
+    background:rgb(238, 217, 233);
 }
     
 .iframe
@@ -56,8 +52,19 @@ box-shadow:     0 0 5px black,
 }
 .lcrausel{
   height:100vh;
+  width:100%;
   min-height: 200px;
-  background: no-repeat center center scroll;
   background-size: cover;
   }
-    
+.fut
+{
+    background: black;
+    color:gray;
+    height:100%;
+    width: 100%;
+    margin-bottom:0%;
+    font-style: unset;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}    
+
+background: no-repeat center center scroll;

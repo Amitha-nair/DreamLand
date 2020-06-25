@@ -11,18 +11,33 @@
     <title>Contact Us!</title>
   </head>
   <body>
-    <ul class="nav nav-pills nav-justified">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="work1.html">Work Space</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact us!</a>
-        </li>
-      </ul>
-      <br>
+    <nav class="navbar navbar-expand-lg w-100 bg-light navbar-light justify-content-center">
+      <h2>Dream_Land</h2>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto w-100 justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Workspace
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="work1.html">Ancient Beauty</a>
+              <a class="dropdown-item" href="work2.html">Modern Art</a>
+              <a class="dropdown-item" href="work3.html">Modern-Ancient Mix</a>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contact us <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
       <h1 class = "font-weight-bolder text-center"> Meet the Dream-Team!</h1>
       <br>
       <div class="container">
@@ -80,18 +95,14 @@
       <h3>Hit us up with your queries!</h3>
       <form>
         <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          <label for="exampleInputEmail1 ">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1">
         </div>
         <div class="form-group">
           <label for="exampleInputPassword1">Password</label>
           <input type="text" class="form-control" id="exampleInputPassword1">
         </div>
-        <div class="form-group form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
+        
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
 
