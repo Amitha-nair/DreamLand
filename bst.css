@@ -66,5 +66,20 @@ box-shadow:     0 0 5px black,
     font-style: unset;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }    
+.fa
+{   height:30px;
+    padding-left:30px;
+}
+.jumbotron1
+{
+    padding-bottom: 0px;
+
+}
+.img
+{
+    border-radius: 300px;
+    margin-top: 30px;
+}
+
 
 background: no-repeat center center scroll;
