@@ -10,7 +10,7 @@ h2{
 
 .navbar
 {
-    background:rgb(238, 217, 233);
+    background: white;
 }
     
 .iframe
@@ -19,19 +19,22 @@ h2{
 }
 .card
 {
-    background-color:seashell
+    background-color:white;
+    padding:10px;
+    
+   
 }
 .btn:hover{
     color:white;
 }
 .btn:hover{
     background: black ;
-box-shadow:     0 0 5px black,
-                0 0 25px black,
-                0 0 50px #03e9f4,
-                0 0 200px #03e9f4;
-}
 
+}
+.btnn
+{
+    margin-left:20px;
+}
 .boton
 {
     color:whitesmoke;
@@ -76,6 +79,7 @@ box-shadow:     0 0 5px black,
     font-style: unset;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }    
+
 .fa
 {   height:30px;
     padding-left:30px;
